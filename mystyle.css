@@ -1,8 +1,10 @@
 
-/*@font-face{
-    font-family: RedHat;
-    src: url(./RedHatDisplay-Regular.ttf);
-}*/
+
+html, body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
 
 body{
     background: url(./images/pattern-background-desktop.svg) #dfe8ff;
