@@ -1,0 +1,125 @@
+
+/*@font-face{
+    font-family: RedHat;
+    src: url(./RedHatDisplay-Regular.ttf);
+}*/
+
+body{
+    background: url(./images/pattern-background-desktop.svg) #dfe8ff;
+    background-repeat: repeat-x;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 80vh;
+    width: 30%;
+    border-radius: 15px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.container__top{
+    height: 32%;
+    width: 100%;
+    background: url(./images/illustration-hero.svg) ;
+    background-size: contain;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.container__title{
+    padding-top: 4%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+
+}
+
+.container__text{
+    padding: 0 15%;
+    font-size: 16px;
+    font-weight: 500;
+    color:  hsl(224, 23%, 55%);
+}
+
+.container__plan{
+    background: #f8f9ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 12%;
+    border-radius: 10px;
+}
+
+.container__plan--img{
+    margin: 5% 5% 5% 5%;
+}
+
+.container__plan--text{
+    width: 35%;
+    margin-right: auto;
+    color:  hsl(224, 23%, 55%);
+
+}
+
+.container__plan--text span{
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%);
+    
+}
+
+.container__plan--option{
+    margin-right: 5%;
+}
+
+.container__plan--option a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.container__payment{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container__payment--btn{
+    border-radius: 10px;
+    padding: 2% 20%;
+    box-shadow: 5px 5px 25px hsl(245, 75%, 52%, 0.5);
+    text-align: center;
+    font-weight: 900;
+    border-color: hsl(245, 75%, 52%);
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+}
+
+
+
+.container__cancel--order{
+    text-decoration: none;
+    font-weight: 700;
+    color:  hsl(224, 23%, 55%);
+}
+
+
+
+
+@media screen and (max-width: 699px) {
+    .container{
+        height: 80vh;
+        width: 85%;
+        border-radius: 15px;
+        text-align: center;
+        background: #ffffff;
+    }
+}
